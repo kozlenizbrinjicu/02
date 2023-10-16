@@ -9,8 +9,8 @@ h2 {
 html {
 	background-color: #eee;
 }
-*{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #h1 {
@@ -27,7 +27,7 @@ html {
 		center/cover;
 	color: #eee;
 	margin-bottom: 0px;
-	padding: 10px;
+	padding: 1vh;
 
 	display: flex;
 	justify-content: left;
@@ -38,8 +38,7 @@ html {
 	margin: 0;
 	font-size: 80px;
 	color: #eee;
-	padding-left: 10vh;
-	padding-top: 3vh;
+	padding-left: 1vh;
 }
 
 #navigacija {
@@ -64,7 +63,7 @@ html {
 
 	box-sizing: border-box;
 	flex-basis: 35%;
-	font-size: 24px;
+	font-size: 2vh;
 }
 
 #navigacija ul li:hover {
@@ -100,7 +99,7 @@ section img {
 	font-size: 14px;
 	padding: 10px;
 	margin-right: 0px;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 #podnozje {
@@ -129,6 +128,9 @@ section img {
 @media (max-width: 750px) {
 	#navigacija ul li {
 		text-align: center;
+	}
+	#h1 {
+		padding: 0px;
 	}
 }
 
