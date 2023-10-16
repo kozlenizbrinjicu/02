@@ -1,0 +1,84 @@
+h1{
+    background-color: #333  ;
+    color: #eee;
+    margin: 0;
+    font-size: 3em;
+    padding: 2vh;
+    padding-top: 50px;
+
+}
+html{
+    background-color: #eee;
+}
+
+body{
+    margin: 0;
+}
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+p{
+    color: #333;
+    font-size: 1.25em;
+    padding-left: 20vh;
+    padding-top: 5vh;
+}
+h2{
+    margin-left: 15vh;
+    margin-top: 10vh;
+    font-size: 2.5em;
+}
+
+iframe{
+    margin: 40px;
+}
+#galerija {
+	padding: 10%;
+	column-count: 3;
+	column-gap: 10px;
+}
+img {
+	width: 100%;
+	height: auto;
+    padding: 8px;
+}
+
+iframe {
+	
+	aspect-ratio: 16 / 9;
+	height: 50%;
+	width: 50%;
+}
+
+#zaglavlje {
+
+	background: url('../slike/za_portfolio/10.jpg') no-repeat fixed center
+		center/cover;
+	color: #eee;
+	margin-bottom: 0px;
+    padding-bottom: 400px;
+
+
+}
+
+#k{
+    font-size: 60px;
+}
+strong{
+    font-size: larger;
+}
+@media (max-width: 1300px) {
+	#galerija {
+		column-count: 2;
+	}
+}
+
+@media (max-width: 600px) {
+	#galerija {
+		column-count: 1;
+	}
+    video{
+        max-width: 300px;
+        height: auto;
+    }
+}
